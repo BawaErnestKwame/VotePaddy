@@ -1,7 +1,10 @@
 import React from 'react'
 import './Home.css'
+import firstimg from "../assets/image1.jpeg"
+
 const Home = () => {
   return (
+    <>
     
     <div className="header">
       <div className="header-text">
@@ -17,6 +20,261 @@ const Home = () => {
 
 
     </div>
+
+    <div className="featured-eventcontainer">
+      
+        <h1>Featured Events</h1>
+        <div className="small-text-btn">
+          <p>Explore our upcoming and live events</p>
+          <button className='viewall-btn'>View all</button>
+      </div>
+
+      <div className="featured-cards">
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+        <div className="card1">
+          <img src={firstimg} alt="" />
+          <div className="text">
+            <h3>Ghana Party In park</h3>
+            <div className="date-code">
+              <p>*234*879#</p>
+              <p>1st January 1970</p>
+            </div>
+          </div>
+
+          <button className='card-btn'>Buy Ticket</button>
+        </div>
+      </div>
+
+
+    </div>
+    </>
   )
 }
 

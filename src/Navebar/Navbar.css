@@ -19,18 +19,27 @@
 .search-input{
     border: 1px solid #0f0f0f;
     width: 35%;
+    padding: 0 10px;
 }
 
 .event-btn{
     border: 1px solid blue;
     border-radius: 8px;
+    padding: 8px 1rem;
+    background-color: #fff;
+    transition: .5s;
 }
 
 .signup-btn{
     border-radius: 8px;
     background-color: rgb(64, 64, 252);
     color: #fff;
+    padding: 8px 1rem;
+   
+}
 
+.event-btn:hover{
+    background-color: rgba(231, 228, 223, 0.452);
 }
 
 .bottom-list-nav{
@@ -53,4 +62,5 @@
     font-size: 1rem;
     letter-spacing: .5px;
     font-weight: 400;
+    color: rgb(1, 1, 22);
 }
