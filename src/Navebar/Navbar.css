@@ -163,11 +163,34 @@
         display: none;
     }
 
-    .bottom-list-nav {
-        display: none;
+    .event-btn {
+       
+        height: 2.4rem;
+        padding: 2px 1rem;
+        
+    }
+    
+    .signup-btn {
+        height: 2.4rem;
+        padding: 2px 1rem;
     }
 
     .menu-btn {
         display: block;
+    }
+
+    /* .bottom-list-nav */
+    
+    .bottom-list-nav ul {
+        flex-wrap: wrap;
+    }
+    
+    .bottom-list-nav ul li {
+        letter-spacing: 0px;
+        
+    }
+
+    .side_navbar ul .active{
+        background-color: transparent;
     }
 }

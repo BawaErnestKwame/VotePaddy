@@ -237,6 +237,12 @@ li span{
 
 }
 @media screen and (max-width:999px) {
+
+    .header {
+      
+         height: auto;
+       
+    }
      /* .featured-container */
 
      .featured-eventcontainer{
@@ -296,6 +302,15 @@ li span{
             height: auto;
             padding: 2rem 1rem;
         }
+
+        .small-text-btn{
+          flex-direction: column;
+        }
+
+        .viewall-btn{
+          width: 100%;
+          }
+          
     
         
         /* featured event */
@@ -307,7 +322,7 @@ li span{
 
         .featured-cards .card1 img{
             width: 100%;
-            height: 70vh;
+            height: 50vh;
             object-fit: cover;
         }
     

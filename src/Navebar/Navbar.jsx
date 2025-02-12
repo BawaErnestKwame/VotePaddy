@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../assets/mlogo.jpg';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import LogoutIcon from '@mui/icons-material/Logout';
@@ -19,9 +19,9 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="top-nav">
-          <div className="logo">
+         <Link to='./' > <div className="logo">
             <img src={logo} alt="Logo" />
-          </div>
+          </div></Link>
           <input type="text" placeholder="Search..." className="search-input" />
           <button className="event-btn">Events</button>
           <button className="signup-btn">SignUp</button>
