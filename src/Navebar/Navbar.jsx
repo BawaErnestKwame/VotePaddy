@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import logo from '../assets/logo-D8_S4TTo.jpg'
-import { NavLink } from 'react-router-dom'
+
 
 
 const Navbar = () => {
@@ -23,14 +23,15 @@ const Navbar = () => {
         </div>
 
         <div className="bottom-list-nav">
+           
             <ul>
-         <NavLink>    <li> Home</li></NavLink>
-            <NavLink> <li>About Us</li></NavLink>
-             <NavLink><li>Contact Us</li></NavLink>
-            <NavLink> <li>Events</li></NavLink>
-             <NavLink><li>Voting Events </li></NavLink>
-           <NavLink>  <li>Ticketing Events</li></NavLink>
-            </ul>
+  <li>Home</li>
+  <li>About Us</li>
+  <li>Contact Us</li>
+  <li>Events</li>
+  <li>Voting Events</li>
+  <li>Ticketing Events</li>
+</ul>
 
         </div>
 
