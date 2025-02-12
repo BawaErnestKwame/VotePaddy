@@ -22,6 +22,7 @@
     font-size: 3rem;
     line-height: 1.2;
 }
+
 span{
     color: rgb(63, 63, 243);
 }
@@ -56,6 +57,8 @@ span{
     letter-spacing: .5px;
 }
 
+
+/* .featured-eventcontainer */
 
 .featured-eventcontainer{
     width: 100%;
@@ -226,17 +229,103 @@ li span{
     margin-top: 1rem;
 }
 
-/* @media screen and (max-width:1200px) {
+@media screen and (max-width:1200px) {
+    .header-text{
+        width: 75%;
+       
+    }
 
-    
 }
-
 @media screen and (max-width:999px) {
+     /* .featured-container */
+
+     .featured-eventcontainer{
+        width: 100%;
+        height: auto;
+        padding: 2rem 2rem;
+    }
 
     
+    /* featured event */
+    
+    .featured-cards{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .howit-works-page{
+        padding: 2rem 3rem;
+        width: 100%;
+        background-color: #f3f4f6;
+    
+    }
+    
+    .howit-works-page .cards{
+       flex-direction: column;
+    }
+
+     .cards .ticket-Purchasing{
+        width: 100%;
+    }
+
+    
+.cards .voting-instructions{
+    width: 100%;
+   
 }
+    
+}
+    
+
 
 @media screen and (max-width:768px) {
+
+    .header-text{
+        width: 100%;
+        padding: 1rem;
+       
+    }
+
+    .header-text h1{
+        font-size: 1.9rem;
+        font-weight: bold;
+    }
+         /* .featured-container */
+
+         .featured-eventcontainer{
+            height: auto;
+            padding: 2rem 1rem;
+        }
+    
+        
+        /* featured event */
+        
+        .featured-cards{
+            grid-template-columns: repeat(1, 1fr);
+            
+        }
+
+        .featured-cards .card1 img{
+            width: 100%;
+            height: 70vh;
+            object-fit: cover;
+        }
+    
+        .howit-works-page{
+            padding: 2rem 1rem;
+            width: 100%;
+          
+        
+        }
+        
+        .howit-works-page .cards{
+           flex-direction: column;
+        }
+    
+         .cards .ticket-Purchasing{
+            width: 100%;
+        }
+    
 
     
 }
@@ -249,7 +338,7 @@ li span{
 @media screen and (max-width:480px) {
 
     
-} */
+}
 
 
 

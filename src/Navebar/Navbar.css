@@ -64,3 +64,35 @@
     font-weight: 400;
     color: rgb(1, 1, 22);
 }
+
+@media screen and (max-width:768px) {
+    .navbar{
+        padding: 1rem 1rem;
+        height: auto;
+    }
+    
+    
+    .logo img{
+        width: 9rem;
+    }
+    
+    .search-input{
+       display: none;
+    }
+
+    .bottom-list-nav ul{
+        text-align: center;
+        gap: 1em ;
+        flex-wrap: wrap;
+        
+    }
+    
+    .bottom-list-nav ul li{
+        font-size: 1rem;
+        letter-spacing: .5px;
+        font-weight: 400;
+        color: rgb(1, 1, 22);
+    }
+
+    
+}
