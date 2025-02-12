@@ -76,18 +76,24 @@
     transition: .5s;
 }
 
-.bottom-list-nav ul li a:hover{
+.bottom-list-nav ul li a:not(.active):hover{
     color: #2563eb;
-   
-   
+
 }
 
 
- a.active{
+ .active{
     background-color: #2563eb;
     color: #fff;
     border-radius: 8px;
     padding: 8px 10px;
+ }
+
+
+
+ /* side_navbar */
+ .side_navbar{
+    display: none;
  }
 
 @media screen and (max-width:768px) {

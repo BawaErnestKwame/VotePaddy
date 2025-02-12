@@ -43,13 +43,14 @@ const Navbar = () => {
 
 <div className="side_navbar">
   <ul>
-    <li to='./' ><NavLink>Overview</NavLink></li>
-    <li><NavLink>Events</NavLink></li>
-    <li><NavLink>Votes</NavLink></li>
-    <li><NavLink>Nominees</NavLink></li>
-    <li><NavLink>Tickets</NavLink></li>
-    <li><NavLink>Settings</NavLink></li>
-    <li><NavLink>Logout</NavLink></li>
+    
+    <li to='./overview' ><NavLink>Overview</NavLink></li>
+    <li to='./events' ><NavLink>Events</NavLink></li>
+    <li><NavLink to='./votes' >Votes</NavLink></li>
+    <li><NavLink to='./nominees' >Nominees</NavLink></li>
+    <li><NavLink to='./ticket' >Tickets</NavLink></li>
+    <li><NavLink to='./settings' > Settings</NavLink></li>
+    <li><NavLink to='./logout' >Logout</NavLink></li>
 
   </ul>
 
