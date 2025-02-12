@@ -7,6 +7,7 @@
 }
 
 .top-nav{
+    width: 100%;
    display: flex;
    justify-content: space-between;
 
@@ -20,21 +21,25 @@
     border: 1px solid #0f0f0f;
     width: 35%;
     padding: 0 10px;
+    height: 2.7rem;
 }
 
 .event-btn{
     border: 1px solid blue;
     border-radius: 8px;
-    padding: 8px 1rem;
-    background-color: #fff;
+    height: 2.7rem;
+    padding: 2px 1.5rem;
+    background-color: #ffffff;
     transition: .5s;
 }
 
 .signup-btn{
     border-radius: 8px;
-    background-color: rgb(64, 64, 252);
+    background-color: #2563eb;
     color: #fff;
     padding: 8px 1rem;
+    height: 2.7rem;
+    padding: 2px 1.5rem;
    
 }
 
@@ -62,8 +67,28 @@
     font-size: 1rem;
     letter-spacing: .5px;
     font-weight: 400;
-    color: rgb(1, 1, 22);
+    color: rgb(0, 0, 12);
 }
+
+.bottom-list-nav ul li a{
+   text-decoration: none;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+
+.bottom-list-nav ul li a:hover{
+    color: #2563eb;
+   
+   
+}
+
+
+ a.active{
+    background-color: #2563eb;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 10px;
+ }
 
 @media screen and (max-width:768px) {
     .navbar{
