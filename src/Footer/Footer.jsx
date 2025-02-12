@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import logo from '../assets/logo-D8_s4TTo.jpg'
+import logo from '../assets/mlogo.jpg'
 const Footer = () => {
   return (
     <div className='main-footer'>

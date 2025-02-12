@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../assets/logo-D8_S4TTo.jpg'
+import logo from '../assets/mlogo.jpg'
+
 
 
 
