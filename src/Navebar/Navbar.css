@@ -159,7 +159,7 @@
         height: auto;
     }
 
-    
+
 }
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -192,10 +192,13 @@
     
     .bottom-list-nav ul {
         flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
     }
     
     .bottom-list-nav ul li {
         letter-spacing: 0px;
+        text-align: center;
         
     }
 

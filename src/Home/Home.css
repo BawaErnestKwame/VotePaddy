@@ -268,13 +268,11 @@ li span{
 
     .featured-cards .card1 img{
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         object-fit: cover;
     }
     
-    .howit-works-page .cards{
-       flex-direction: column;
-    }
+
 
      .cards .ticket-Purchasing{
         width: 100%;
@@ -359,13 +357,14 @@ li span{
 
 @media screen and (max-width:600px) {
 
+    .howit-works-page .cards{
+        flex-direction: column;
+     }
+
     
 }
 
-@media screen and (max-width:480px) {
 
-    
-}
 
 
 
