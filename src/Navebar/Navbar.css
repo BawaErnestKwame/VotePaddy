@@ -152,6 +152,15 @@
     color: #000000;
 }
 
+@media screen and (max-width:992px) {
+
+   .navbar {
+        padding: 1rem 1rem;
+        height: auto;
+    }
+
+    
+}
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     .navbar {

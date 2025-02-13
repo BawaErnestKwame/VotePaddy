@@ -239,8 +239,8 @@ li span{
 @media screen and (max-width:999px) {
 
     .header {
-      
-         height: auto;
+        width: 100%;
+         height: 100vh;
        
     }
      /* .featured-container */
@@ -265,6 +265,12 @@ li span{
         background-color: #f3f4f6;
     
     }
+
+    .featured-cards .card1 img{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+    }
     
     .howit-works-page .cards{
        flex-direction: column;
@@ -285,6 +291,11 @@ li span{
 
 
 @media screen and (max-width:768px) {
+
+    .header{
+        width: 100%;
+        height: 100vh;
+    }
 
     .header-text{
         width: 100%;
@@ -308,6 +319,7 @@ li span{
         }
 
         .viewall-btn{
+            margin-top: 10px;
           width: 100%;
           }
           
@@ -322,7 +334,7 @@ li span{
 
         .featured-cards .card1 img{
             width: 100%;
-            height: 50vh;
+            height: 40vh;
             object-fit: cover;
         }
     
