@@ -5,6 +5,7 @@
     width: 100%;
     height: 20vh;
     padding: 1rem 2rem;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.253);
 }
 
 .top-nav {
@@ -47,6 +48,7 @@
     background-color: rgba(231, 228, 223, 0.452);
 }
 
+/* Bottom Navigation */
 .bottom-list-nav {
     width: 100%;
     align-self: center;
@@ -87,11 +89,11 @@
     padding: 8px 10px;
 }
 
-/* Side Navbar (opens from right) */
-.side_navbar {
+/* Side Navbar (Mobile Menu) */
+.side-navbar {
     position: fixed;
     top: 0;
-    right: -70%; 
+    right: -70%; /* Hidden by default */
     width: 70%;
     height: 100vh;
     background: #ffffff;
@@ -99,33 +101,35 @@
     padding-top: 20px;
     transition: right 0.3s ease-in-out;
     z-index: 1000;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.side_navbar.open {
-    right: 0; 
+.side-navbar.open {
+    right: 0; /* Slide-in effect */
 }
 
-.side_navbar ul {
+.side-navbar ul {
     list-style: none;
     padding: 0;
+    text-align: left;
 }
 
-.side_navbar ul li{
-    display: flex;
-    align-items: center;
-    padding: 0 10px ;
+.side-navbar ul li {
+    padding: 15px 20px;
 }
 
-.side_navbar a {
-    display: block;
-    padding: 10px 20px;
+.side-navbar a {
     text-decoration: none;
+    font-size: 1.1rem;
     color: #000000;
+    display: block;
+    transition: 0.3s;
 }
 
-.side_navbar a:hover {
-   color: #2563eb;
+.side-navbar a:hover {
+    color: #2563eb;
 }
+
 
 /* Menu Button */
 .menu-btn {
@@ -141,10 +145,7 @@
 .close-btn {
     position: absolute;
     top: 15px;
-    margin-bottom: 2rem;
-   
-    right: 2rem;
- 
+    right: 20px;
     background: none;
     border: none;
     font-size: 24px;
@@ -152,16 +153,16 @@
     color: #000000;
 }
 
-@media screen and (max-width:992px) {
 
-   .navbar {
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .navbar {
         padding: 1rem 1rem;
         height: auto;
     }
-
-
 }
-/* Responsive Styles */
+
 @media screen and (max-width: 768px) {
     .navbar {
         padding: 1rem 1rem;
@@ -173,10 +174,8 @@
     }
 
     .event-btn {
-       
         height: 2.4rem;
         padding: 2px 1rem;
-        
     }
     
     .signup-btn {
@@ -188,21 +187,12 @@
         display: block;
     }
 
-    /* .bottom-list-nav */
-    
-    .bottom-list-nav ul {
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .bottom-list-nav ul li {
-        letter-spacing: 0px;
-        text-align: center;
-        
+    .bottom-list-nav {
+        display: none;
     }
 
-    .side_navbar ul .active{
+
+    .side-navbar ul .active {
         background-color: transparent;
     }
 }
