@@ -82,7 +82,7 @@
     color: #2563eb;
 }
 
-.active {
+.bottom-list-nav ul li a.active {
     background-color: #2563eb;
     color: #fff;
     border-radius: 8px;

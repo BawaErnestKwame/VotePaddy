@@ -86,3 +86,55 @@ label{
 required{
     border: 1px solid red;
 }
+
+@media screen and (max-width:1200px) {
+    .contact-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+        padding: 2rem 2rem;
+
+    
+    }
+    
+    .contact-container img{
+        width: 50%;
+        border-radius: 10px;
+    }
+    
+    .input-field span{
+        color: rgb(255, 0, 0);
+    }
+    
+    .form-container{
+        width: 50%;
+    
+    
+    }
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .contact-container{
+       
+        padding: 2rem 1rem;
+
+    
+    }
+    
+    .contact-container img{
+        display: none;
+    }
+    
+    
+    .form-container{
+        width: 100%;
+    
+    
+    }
+
+
+    
+}

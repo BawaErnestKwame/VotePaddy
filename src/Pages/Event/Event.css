@@ -1,14 +1,15 @@
 .event-container{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
 }
 
 .btns-container{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 3rem;
 
 }
 
@@ -27,6 +28,63 @@
     color: #6b7280;
    
 }
-.btns-container .left-btns{
-    width: ;
+ .left-btns a .active{
+    background-color: rgb(0, 44, 240);
+    color: #fff;
+
+ 
+}
+
+.left-btns:not(.active){
+    background-color: #fff;
+    color: #6b7280;
+}
+
+.right-btns{
+    
+}
+
+.event-cards{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.event-cards .card1{
+    width: 25%;
+    border: 1px solid #6b7280;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.event-cards .card1 img{
+    width: 100%;
+}
+
+.event-cards .card1 .date-code{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    color: #01091d;
+}
+
+.event-cards .card1 .card-btn{
+    width: 100%;
+    border: 1px solid  rgb(0, 44, 240);
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    color: #01091d;
+    transition: .5s;
+}
+
+.text h3{
+    margin-top: 10px;
+}
+
+.event-cards .card1 .card-btn:hover{
+    background-color: #6b728060;
 }

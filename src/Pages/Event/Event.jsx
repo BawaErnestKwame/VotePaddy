@@ -1,6 +1,7 @@
 import React from 'react'
 import './Event.css'
 import { NavLink } from 'react-router-dom'
+import image2 from '../../assets/image2.jpeg'
 
 
 const Event = () => {
@@ -28,9 +29,54 @@ const Event = () => {
       </div>
 
       <div className="event-cards">
-        <div className="card1">
-          <img src="" alt="" />
-        </div>
+         <div className="card1">
+                 <img src={image2} alt="" />
+                 <div className="text">
+                   <h3>Ghana Party In park</h3>
+                   <div className="date-code">
+                     <p>*234*879#</p>
+                     <p>1st January 1970</p>
+                   </div>
+                 </div>
+       
+                 <button className='card-btn'>Buy Ticket</button>
+               </div>
+         <div className="card1">
+                 <img src={image2} alt="" />
+                 <div className="text">
+                   <h3>Ghana Party In park</h3>
+                   <div className="date-code">
+                     <p>*234*879#</p>
+                     <p>1st January 1970</p>
+                   </div>
+                 </div>
+       
+                 <button className='card-btn'>Buy Ticket</button>
+               </div>
+         <div className="card1">
+                 <img src={image2} alt="" />
+                 <div className="text">
+                   <h3>Ghana Party In park</h3>
+                   <div className="date-code">
+                     <p>*234*879#</p>
+                     <p>1st January 1970</p>
+                   </div>
+                 </div>
+       
+                 <button className='card-btn'>Buy Ticket</button>
+               </div>
+         <div className="card1">
+                 <img src={image2} alt="" />
+                 <div className="text">
+                   <h3>Ghana Party In park</h3>
+                   <div className="date-code">
+                     <p>*234*879#</p>
+                     <p>1st January 1970</p>
+                   </div>
+                 </div>
+       
+                 <button className='card-btn'>Buy Ticket</button>
+               </div>
       </div>
 
     </div>
