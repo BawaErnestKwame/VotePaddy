@@ -1,36 +1,41 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import image2 from '../../assets/image2.jpeg'
+import './SignUp.css'
+import { Link } from 'react-router-dom'
+import image from '../../assets/contactimg.jpg'
+import GoogleIcon from '@mui/icons-material/Google';
 
 const SignUp = () => {
   return (
     <div className='signup-page'>
-        <img src={image2} alt="" />
+        <img src={image} alt="" />
 
         <div className="form-container">
             <h2>Hello, Welcome Back!</h2>
             <p>Log into your account</p>
             <form action="">
-                <div className="input-field">
-                    <input type="text" placeholder='Log in with Google'/>
-                </div>
+                <button className='loginwith-googl-btn'> <GoogleIcon/> Login with google</button>
 
-                <div className="input-field">
-                    <label htmlFor="">Email<span>*</span></label>
+                <div className="input-fields">
+                    <label htmlFor="" className='email'>Email<span>*</span></label>
                     <input type="email" placeholder='name@domain.com'/>
                 </div>
-                <div className="input-field">
-                    <label htmlFor="">Password<span>*</span><span>*</span></label>
+                <div className="input-fields">
+                    <label htmlFor="" className='password'>Password<span>*</span></label>
                     <input type="password" placeholder='Enter your password'/>
                 </div>
 
                 <div className="remember-forgot">
-                    <input type="check" />
-                    <p>Forgot Password</p>
+                    <div className="check-box">
+                    <input type="checkbox" className=''/>
+                    <p>Remember Me</p>
+
+                    </div>
+                  
+                   <Link to=''> <p>Forgot Password?</p></Link>
                 </div>
 
                 <button className='login-btn'>Log In</button>
-                <p>Don't have an account? <NavLink>Sign Up</NavLink> </p>
+                <p>Don't have an account? <Link to='/Login'>Sign Up</Link> </p>
             </form>
         </div>
 
