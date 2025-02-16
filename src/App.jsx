@@ -10,13 +10,13 @@ import Voting from './Pages/Voting/Voting';
 import Ticket from './Pages/Ticket/Ticket';
 import Footer from './Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Overview from './Pages/Overview/Overview';
-import Events from './Pages/Events/Events';
-import Votes from './Pages/Votes/Votes';
-import Nominees from './Pages/Nominees/Nominees';
-import Tickets from './Pages/Tickets/Tickets';
-import Settings from './Pages/Settings/Settings';
-import Logout from './Pages/Logout/Logout';
+// import Overview from './Pages/Overview/Overview';
+// import Events from './Pages/Events/Events';
+// import Votes from './Pages/Votes/Votes';
+// import Nominees from './Pages/Nominees/Nominees';
+// import Tickets from './Pages/Tickets/Tickets';
+// import Settings from './Pages/Settings/Settings';
+// import Logout from './Pages/Logout/Logout';
 
 const App = () => {
   return (

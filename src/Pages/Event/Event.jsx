@@ -18,7 +18,7 @@ const Event = () => {
 
           </div>
           <div className="right-btns">
-         <select name="" id="">
+         <select name="" id="" className='select-option'>
           <option value="current">Current Value</option>
           <option value="current">Past Event</option>
          </select>

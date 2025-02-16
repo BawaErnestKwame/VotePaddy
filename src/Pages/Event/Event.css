@@ -40,8 +40,33 @@
     color: #6b7280;
 }
 
-.right-btns{
+.right-btns .view-all-btn{
+    padding: 8px 10px;
+    background-color: #2563eb;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.right-btns .select-option{
+    outline: none;
+    border: none;
+    padding: 8px 1rem;
+    font-size: 1rem;
+    border: 1px solid #6b7280;
+    border-radius: 8px;
+}
+
+.right-btns .select-option option{
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+.right-btns .select-option option:hover{
     
+   background-color: #bebcbcad;
 }
 
 .event-cards{
@@ -87,4 +112,19 @@
 
 .event-cards .card1 .card-btn:hover{
     background-color: #6b728060;
+}
+
+
+@media screen and (max-width:768px) {
+    .event-container{
+        height: auto;
+        padding: 3rem irem;
+    }
+
+    .event-cards{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
 }

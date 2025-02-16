@@ -1,0 +1,57 @@
+
+.voting-cont{
+    display: flex;
+    width: 100%;
+    padding: 3rem 3rem;
+    flex-direction: column;
+}
+
+.voting-cont .title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.voting-cont .title p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.voting-cont .voting-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.voting-cards .vote-card1{
+    width: 100%;
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.voting-cards .vote-card1 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.voting-cards .vote-card1 .card-text h2{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    
+}
+
+.voting-cards .vote-card1 .card-text p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.view-content{
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgb(151, 149, 149);
+    font-size: 1rem;
+    background-color: transparent;
+}
+
