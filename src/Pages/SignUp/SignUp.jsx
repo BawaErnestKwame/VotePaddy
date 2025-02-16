@@ -12,8 +12,8 @@ const SignUp = () => {
     <img src={image} alt="Login Page Visual" />
 
     <div className="form-container">
-      <h2>Hello, Welcome Back!</h2>
-      <p>Log into your account</p>
+      <h2>Hello, Welcome to VotePaddy</h2>
+      <p>Create an account</p>
       <form action="">
         <button className='loginwith-google-btn'>
           <GoogleIcon /> Sign Up with Google

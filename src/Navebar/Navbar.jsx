@@ -19,7 +19,7 @@ const Navbar = () => {
           </Link>
           <input type="text" placeholder="Search..." className="search-input" />
           <button className="event-btn">Events</button>
-          <Link to='./Login'><button className="signup-btn">SignUp</button></Link>
+          <Link to='./SignUp'><button className="signup-btn">SignUp</button></Link>
       
 
           {/* Menu Button (Opens Sidebar) */}
