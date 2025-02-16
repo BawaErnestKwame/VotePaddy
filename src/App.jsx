@@ -11,6 +11,7 @@ import Ticket from './Pages/Ticket/Ticket';
 import Footer from './Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import SignUp from './Pages/SignUp/SignUp';
+import Login from './Pages/Login/Login';
 // import Overview from './Pages/Overview/Overview';
 // import Events from './Pages/Events/Events';
 // import Votes from './Pages/Votes/Votes';
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/voting' element={<Voting/>} />
         <Route path='/ticket' element={<Ticket/>} />
         <Route path='/signUp' element={<SignUp/>} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
       <Footer />
     </div>

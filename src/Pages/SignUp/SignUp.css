@@ -1,29 +1,4 @@
-.signup-page{
-    width: 100%;
-    display: flex;
-    gap: 2rem;
-    padding: 3rem;
-}
-
-.signup-page img{
-    width: 50%;
-    border-radius: 10px;
-}
-
-.signup-page .form-container{
-    width: 50%;
-}
-
-.form-container{
-    margin-top: 70px;
-}
-
-.form-container p{
-    margin-top: 10px;
-
-}
-
-.form-container .loginwith-googl-btn{
+.loginwith-google-btn{
     width: 100%;
     padding: 10px;
     background-color: #2563eb;
@@ -35,51 +10,3 @@
     gap: .5rem;
     margin-top: 1rem;
 }
-
-.form-container span{
-    color: red;
-    font-size: 1.3rem;
-}
-
- .input-fields input{
-    width: 100%;
-    border: 1px solid rgb(185, 178, 178);
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.input-fields{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.remember-forgot{
-    margin-top: 1.5rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.check-box{
-    display: flex; 
-    gap: 2rem;
-}
-
-.login-btn{
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    margin-top: 1rem;
-    background-color: #2563eb;
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-p a{
-    color: #2563eb;
-    font-size: 1rem;
-    text-decoration: underline;
-}
-
