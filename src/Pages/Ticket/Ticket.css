@@ -49,3 +49,15 @@
     width: 9rem;
      
 }
+
+@media screen and (max-width:992px) {
+    .ticket-container{
+        width: 100%;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    
+    
+
+    
+}
