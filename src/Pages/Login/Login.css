@@ -83,3 +83,48 @@ p a{
     text-decoration: underline;
 }
 
+
+@media screen and (max-width:1200px) {
+  .signup-page img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.signup-page .form-container{
+    width: 50%;
+}
+
+.form-container{
+    margin-top: 50px;
+}
+    
+
+    
+}
+
+@media screen and (max-width:992px) {
+    .signup-page{
+        width: 100%;
+        display: flex;
+        gap: 2rem;
+        padding: 3rem 1rem;
+    }
+    
+   
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .signup-page img{
+        display: none;
+    }
+    
+    .signup-page .form-container{
+        width: 100%;
+    }
+    
+}
+
+
+

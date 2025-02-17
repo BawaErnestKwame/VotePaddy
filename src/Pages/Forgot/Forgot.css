@@ -51,3 +51,37 @@ position: relative;
     margin-bottom: 40px;
 }
 
+@media screen and (max-width:1200px) {
+    .forgot-cont{
+   
+        padding: 3rem 1rem;
+    
+    }
+    
+    .items{
+        width: 60%;
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .forgot-cont{
+        padding: 3rem 1rem;
+    }
+    
+    .items{
+        width: 90%;
+        position: relative;
+    }
+    
+    
+}
+
+@media screen and (max-width:768px) {
+    .items{
+        width: 100%;
+       
+    }
+    
+}

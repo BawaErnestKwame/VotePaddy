@@ -55,3 +55,38 @@
     background-color: transparent;
 }
 
+
+@media screen and (max-width:992px) {
+    .voting-cont .voting-cards{
+      
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .voting-cont{
+        padding: 3rem 1rem;
+        
+    }
+    
+
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .voting-cont .voting-cards{
+      
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+
+    .voting-cont{
+        padding: 3rem 1rem;
+        
+    }
+    
+
+
+    
+}
