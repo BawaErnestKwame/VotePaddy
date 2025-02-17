@@ -16,17 +16,17 @@
     color: rgb(255, 0, 0);
 }
 
-.form-container{
+.form-containers{
     width: 50%;
 
 
 }
 
-.form-container h1{
+.form-containers h1{
     margin-bottom: 5px;
 }
 
-.form-container p{
+.form-containers p{
     font-size: 1rem;
     margin-bottom: 10px;
 }
@@ -39,12 +39,12 @@ label{
    
 }
 
-.form-container .input-field{
+.form-containers .input-field{
     margin-bottom: 1.5rem;
 }
 
 
-.form-container .input-field input{
+.form-containers .input-field input{
     border: 1px solid #020202;
     border-radius: 5px;
     padding: .8rem;
@@ -107,7 +107,7 @@ required{
         color: rgb(255, 0, 0);
     }
     
-    .form-container{
+    .form-containers{
         width: 50%;
     
     
@@ -115,6 +115,27 @@ required{
 
     
 }
+
+
+
+
+@media screen and (max-width:992px) {
+    .contact-container{
+        padding: 2rem 1rem;
+
+    }
+    
+    
+    .form-containers{
+        width: 100%;
+    
+    
+    }
+
+
+    
+}
+
 
 @media screen and (max-width:768px) {
     .contact-container{
@@ -127,7 +148,7 @@ required{
     }
     
     
-    .form-container{
+    .form-containers{
         width: 100%;
     
     
