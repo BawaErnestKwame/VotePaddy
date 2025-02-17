@@ -161,11 +161,13 @@
 
     .right-btns .view-all-btn{
        width: 100%;
+       padding: 12px 10px;
     }
     
     .right-btns .select-option{
         margin-top: 20px;
         margin-bottom: 20px;
+        padding: 12px 10px;
        width: 100%;
     }
     

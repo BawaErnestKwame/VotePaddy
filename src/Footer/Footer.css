@@ -55,7 +55,7 @@
 @media screen and (max-width:992) {
     .main-footer{
         width: 100%;
-        height: 40vh;
+        height: auto;
         padding: 2rem 1rem;
     }
     
