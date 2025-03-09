@@ -1,5 +1,6 @@
 import React from 'react'
 import './Ticket.css'
+import {Link } from 'react-router-dom'
 
 const Ticket = () => {
   return (
@@ -8,7 +9,7 @@ const Ticket = () => {
         <h1>404</h1>
         <h2>Uh-oh!</h2>
         <p>We couldn't find that page</p>
-        <button>Return Home</button>
+       <Link to='/'> <button>Return Home</button></Link>
       </div>
 
     </div>

@@ -15,6 +15,7 @@ import image13 from "../assets/image13.png"
 import image14 from "../assets/image14.jpeg"
 import image15 from "../assets/image15.jpeg"
 import image16 from "../assets/image16.jpeg"
+import { NavLink, Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
         <h1><span>Vote</span> for Your Favorites and Book Tickets to Exclusive <span>Events!</span></h1>
         <p>Support your favorite candidates and enjoy live performances by purchasing your event tickets here.</p>
         <div className="header-buttons">
-          <button className='vote-now'>Vote Now</button>
+         <Link to='./SignUp'> <button className='vote-now'>Vote Now</button></Link>
           <button className="buy-ticket">
             Buy Tickets
           </button>
@@ -40,7 +41,7 @@ const Home = () => {
         <h1>Featured Events</h1>
         <div className="small-text-btn">
           <p>Explore our upcoming and live events</p>
-          <button className='viewall-btn'>View all</button>
+      <Link to='./Event'>    <button className='viewall-btn'>View all</button></Link>
       </div>
 
       <div className="featured-cards">
@@ -300,7 +301,7 @@ const Home = () => {
             <li><span>3</span>Complete Payment</li>
             <li><span>4</span>Receive Your Ticket</li>
           </ul>
-          <button className='purchasing-btn'>Buy Tickets</button>
+     <NavLink to='./Ticket'>    <button className='purchasing-btn'>Buy Tickets</button></NavLink>
 
         </div>
 
@@ -314,7 +315,7 @@ const Home = () => {
             <li><span>4</span>Complete payment to confirm vote</li>
           </ul>
 
-          <button className='vote-now'>Vote Now</button>
+        <Link to='./SignUp'>  <button className='vote-now'>Vote Now</button></Link>
 
         </div>
       </div>
