@@ -5,9 +5,15 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import logo from '../assets/mlogo.jpg'
+import { motion } from "framer-motion"
 const Footer = () => {
   return (
-    <div className='main-footer'>
+    <motion.div className='main-footer'
+    initial={{ opacity: 0, y: 300 }} 
+    whileInView={{ opacity: 1, y: 0 }} 
+    transition={{ duration: 1.8}}
+    viewport={{ once: true, amount: 0.3 }} 
+    >
 
         <div className="logo-list-socials-display">
 
@@ -39,7 +45,7 @@ const Footer = () => {
         </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 

@@ -16,13 +16,21 @@ import image14 from "../assets/image14.jpeg"
 import image15 from "../assets/image15.jpeg"
 import image16 from "../assets/image16.jpeg"
 import { NavLink, Link } from 'react-router-dom';
+import { motion } from "framer-motion"
 
 const Home = () => {
   return (
     <>
     
     <div className="header">
-      <div className="header-text">
+      <motion.div className="header-text"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 1.5 }}
+        whileInView={{ opacity: 1, y: 0 }} 
+        viewport={{ once: false, amount: 0.3 }}
+      
+      >
         <h1><span>Vote</span> for Your Favorites and Book Tickets to Exclusive <span>Events!</span></h1>
         <p>Support your favorite candidates and enjoy live performances by purchasing your event tickets here.</p>
         <div className="header-buttons">
@@ -31,12 +39,17 @@ const Home = () => {
             Buy Tickets
           </button>
         </div>
-      </div>
+      </motion.div>
 
 
     </div>
 
-    <div className="featured-eventcontainer">
+    <motion.div className="featured-eventcontainer"
+       initial={{ opacity: 0, y: 100 }}  
+       whileInView={{ opacity: 1, y: 0 }}  
+       transition={{ duration: .5 }}
+       viewport={{ once: true, amount: 0.3 }}  
+    >
       
         <h1>Featured Events</h1>
         <div className="small-text-btn">
@@ -237,63 +250,25 @@ const Home = () => {
 
           <button className='card-btn'>Buy Ticket</button>
         </div>
-        <div className="card1">
-          <img src={image15} alt="" />
-          <div className="text">
-            <h3>Ghana Party In park</h3>
-            <div className="date-code">
-              <p>*234*879#</p>
-              <p>1st January 1970</p>
-            </div>
-          </div>
-
-          <button className='card-btn'>Buy Ticket</button>
-        </div>
-        <div className="card1">
-          <img src={image5} alt="" />
-          <div className="text">
-            <h3>Ghana Party In park</h3>
-            <div className="date-code">
-              <p>*234*879#</p>
-              <p>1st January 1970</p>
-            </div>
-          </div>
-
-          <button className='card-btn'>Buy Ticket</button>
-        </div>
-        <div className="card1">
-          <img src={image16} alt="" />
-          <div className="text">
-            <h3>Ghana Party In park</h3>
-            <div className="date-code">
-              <p>*234*879#</p>
-              <p>1st January 1970</p>
-            </div>
-          </div>
-
-          <button className='card-btn'>Buy Ticket</button>
-        </div>
-        <div className="card1">
-          <img src={image2} alt="" />
-          <div className="text">
-            <h3>Ghana Party In park</h3>
-            <div className="date-code">
-              <p>*234*879#</p>
-              <p>1st January 1970</p>
-            </div>
-          </div>
-
-          <button className='card-btn'>Buy Ticket</button>
-        </div>
+       
+      
+        
+        
       </div>
 
 
-    </div>
+    </motion.div>
 
     <div className="howit-works-page">
       <h1>How It Works</h1>
       <div className="cards">
-        <div className="ticket-Purchasing">
+        <motion.div className="ticket-Purchasing"
+       
+       initial={{ opacity: 0, x: -300 }} 
+       whileInView={{ opacity: 1, x: 0 }} 
+       transition={{ duration: 1.8}}
+       viewport={{ once: true, amount: 0.5 }} 
+        >
           <h3>Ticket Purchasing Instructions</h3>
           <ul>
             <li><span>1</span> Browse Events</li>
@@ -303,9 +278,14 @@ const Home = () => {
           </ul>
      <NavLink to='./Ticket'>    <button className='purchasing-btn'>Buy Tickets</button></NavLink>
 
-        </div>
+        </motion.div>
 
-        <div className="voting-instructions">
+        <motion.div className="voting-instructions"
+            initial={{ opacity: 0, x: 300 }} 
+            whileInView={{ opacity: 1, x: 0 }} 
+            transition={{ duration: 1.8}}
+            viewport={{ once: true, amount: 0.5 }} 
+        >
           <h3>Voting Instructions</h3>
 
           <ul>
@@ -317,7 +297,7 @@ const Home = () => {
 
         <Link to='./SignUp'>  <button className='vote-now'>Vote Now</button></Link>
 
-        </div>
+        </motion.div>
       </div>
     </div>
     </>
