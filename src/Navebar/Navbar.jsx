@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
+
 const Navbar = () => {
   const [sideNavOpen, setSideNavOpen] = useState(false);
 
@@ -17,7 +18,11 @@ const Navbar = () => {
               <img src={logo} alt="Logo" />
             </div>
           </Link>
+
+          <div className="input-close-btn">
           <input type="text" placeholder="Search..." className="search-input" />
+
+          </div>
          <Link to='./Event'> <button className="event-btn">Events</button></Link>
           <Link to='./Login'><button className="signup-btn">Sign In</button></Link>
       

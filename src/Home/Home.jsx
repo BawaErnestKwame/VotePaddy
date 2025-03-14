@@ -23,12 +23,12 @@ const Home = () => {
     <>
     
     <div className="header">
-      <motion.div className="header-text"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }} 
-        transition={{ duration: 1.5 }}
-        whileInView={{ opacity: 1, y: 0 }} 
-        viewport={{ once: false, amount: 0.3 }}
+      <div className="header-text"
+        // initial={{ opacity: 0, y: 100 }}
+        // animate={{ opacity: 1, y: 0 }} 
+        // transition={{ duration: 1.5 }}
+        // whileInView={{ opacity: 1, y: 0 }} 
+        // viewport={{ once: false, amount: 0.3 }}
       
       >
         <h1><span>Vote</span> for Your Favorites and Book Tickets to Exclusive <span>Events!</span></h1>
@@ -39,16 +39,13 @@ const Home = () => {
             Buy Tickets
           </button>
         </div>
-      </motion.div>
+      </div>
 
 
     </div>
 
-    <motion.div className="featured-eventcontainer"
-       initial={{ opacity: 0, y: 100 }}  
-       whileInView={{ opacity: 1, y: 0 }}  
-       transition={{ duration: .5 }}
-       viewport={{ once: true, amount: 0.3 }}  
+    <div className="featured-eventcontainer"
+     
     >
       
         <h1>Featured Events</h1>
@@ -257,17 +254,17 @@ const Home = () => {
       </div>
 
 
-    </motion.div>
+    </div>
 
     <div className="howit-works-page">
       <h1>How It Works</h1>
       <div className="cards">
-        <motion.div className="ticket-Purchasing"
+        <div className="ticket-Purchasing"
        
-       initial={{ opacity: 0, x: -300 }} 
-       whileInView={{ opacity: 1, x: 0 }} 
-       transition={{ duration: 1.8}}
-       viewport={{ once: true, amount: 0.5 }} 
+      //  initial={{ opacity: 0, x: -300 }} 
+      //  whileInView={{ opacity: 1, x: 0 }} 
+      //  transition={{ duration: 1.8}}
+      //  viewport={{ once: true, amount: 0.5 }} 
         >
           <h3>Ticket Purchasing Instructions</h3>
           <ul>
@@ -278,13 +275,13 @@ const Home = () => {
           </ul>
      <NavLink to='./Ticket'>    <button className='purchasing-btn'>Buy Tickets</button></NavLink>
 
-        </motion.div>
+        </div>
 
-        <motion.div className="voting-instructions"
-            initial={{ opacity: 0, x: 300 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
-            transition={{ duration: 1.8}}
-            viewport={{ once: true, amount: 0.5 }} 
+        <div className="voting-instructions"
+            // initial={{ opacity: 0, x: 300 }} 
+            // whileInView={{ opacity: 1, x: 0 }} 
+            // transition={{ duration: 1.8}}
+            // viewport={{ once: true, amount: 0.5 }} 
         >
           <h3>Voting Instructions</h3>
 
@@ -297,7 +294,7 @@ const Home = () => {
 
         <Link to='./SignUp'>  <button className='vote-now'>Vote Now</button></Link>
 
-        </motion.div>
+        </div>
       </div>
     </div>
     </>

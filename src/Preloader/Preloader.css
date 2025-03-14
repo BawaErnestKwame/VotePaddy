@@ -27,4 +27,14 @@
       opacity: 1;
     }
   }
+
+  @media screen and (max-width:640px) {
+    .preloader-image {
+      width: 30px; 
+      height: auto;
+      animation: fadeIn 2s ease-in-out infinite; 
+    }
+
+    
+  }
   

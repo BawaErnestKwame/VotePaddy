@@ -24,6 +24,18 @@
     width: 35%;
     padding: 0 10px;
     height: 2.7rem;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.input-close-btn{
+    border: 1px solid gray;
+    border-radius:10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
 }
 
 .event-btn {
@@ -152,6 +164,8 @@
     cursor: pointer;
     color: #000000;
 }
+
+
 
 
 
